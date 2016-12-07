@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<title>列表页</title>
+<link href="css/list.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="js/setHomeSetFav.js" charset="gb2312"></script>
+</head>
+<body>
+<!--头部制作-->
+<div class="header">
+	<div class="header_content">
+		<ul>
+			<li><a href="#">联系我们</a></li>
+			<li><a href="#" onclick="AddFavorite(window.location, document.title)">加入收藏</a></li>
+			<li><a href="#" onclick="SetHome(window.location)">设为首页</a></li>
+		</ul>
+	</div>
+</div>
+<!--头部制作结束-->
+<!-- wrap部分 -->
+<div class="wrap">
+	<!-- logo部分 -->
+	<div class="logo">
+		<div class="logo_left">
+			<a href="#"></a>
+		</div>
+		<div class="logo_right">
+			<img src="img/tel.jpg" alt="服务热线">24小时服务热线：<span class="tel">123-456-7890</span>
+		</div>
+	</div>
+	<!-- logo部分结束 -->
+	<!-- nav部分 -->
+	<div class="nav">
+		<div class="nav_left"></div>
+		<div class="nav_mid">
+			<div class="nav_mid_left">
+				<ul>
+					<li><a href="#">首页</a></li>
+					<li><a href="list.html">关于慕课</a></li>
+					<li><a href="list.html">新闻动态</a></li>
+					<li><a href="list.html">课程中心</a></li>
+					<li><a href="list.html">在线课程</a></li>
+					<li><a href="list.html">人才招聘</a></li>
+				</ul>
+				</div>
+			<div class="nav_mid_right">
+				<form action="" method="post">
+					<input type="text" name="keyword" class="search_txt">
+				</form>
+			</div>
+		</div>
+		<div class="nav_right"></div>
+	</div>
+	<!-- nav结束 -->
+	<div class="ad">
+		<img src="img/ad.jpg" alt="ad">
+	</div>
+	<!-- 列表区 -->
+	<div class="list_main">
+		<div class="news_type">
+			<h2>新闻列表</h2>
+			<div class="news_type_content">
+				<ul>
+					<li><a href="list.html">公司新闻</a></li>
+					<li><a href="list.html">行业新闻</a></li>
+					<li><a href="list.html">媒体报道</a></li>
+					<li><a href="list.html">活动专题</a></li>
+					<li><a href="list.html">精彩视频</a></li>
+					<li><a href="list.html">资源下载</a></li>
+					<li><a href="list.html">公司内刊</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="list_box">
+			<h2>新闻中心</h2>
+			<div class="news_list">
+				<ul>
+					<li><span class="date">2012-02-01</span><a href="news.html">程序员活动获奖公告时间公布</a></li>
+					<li><span class="date">2012-02-01</span><a href="news.html">程序员活动获奖公告时间公布</a></li>
+					<li><span class="date">2012-02-01</span><a href="news.html">程序员活动获奖公告时间公布</a></li>
+					<li><span class="date">2012-02-01</span><a href="news.html">程序员活动获奖公告时间公布</a></li>
+					<li><span class="date">2012-02-01</span><a href="news.html">程序员活动获奖公告时间公布</a></li>
+					<li><span class="date">2012-02-01</span><a href="news.html">程序员活动获奖公告时间公布</a></li>
+				</ul>
+			</div>
+			<!-- 页码制作 -->
+			<div class="page">
+				<a href="#">首页</a>
+				<a href="#">&lt;</a>
+				<a href="#">1</a>
+				<a href="#">2</a>
+				<a href="#">3</a>
+				<a href="#">...</a>
+				<a href="#">&gt;</a>
+				<a href="#">末页</a>
+			</div>
+		</div>
+	</div>
+	<!-- 列表区结束 -->
+</div>
+<!-- wrap结束 -->
+<!-- 版权区 -->
+<div class="copyright">
+	<div class="copyright_content">
+		<ul>
+			<li>
+				<a href="#">关于</a>
+				<ul>
+					<li><a href="#">关于我们</a></li>
+					<li><a href="#">关于我们</a></li>
+					<li><a href="#">关于我们</a></li>
+					<li><a href="#">关于我们</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="#">课程</a>
+				<ul>
+					<li><a href="#">关于我们</a></li>
+					<li><a href="#">关于我们</a></li>
+					<li><a href="#">关于我们</a></li>
+					<li><a href="#">关于我们</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="#">关注</a>
+				<ul>
+					<li><a href="#">关于我们</a></li>
+					<li><a href="#">关于我们</a></li>
+					<li><a href="#">关于我们</a></li>
+					<li><a href="#">关于我们</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="#">信息</a>
+				<ul>
+					<li><a href="#">关于我们</a></li>
+					<li><a href="#">关于我们</a></li>
+					<li><a href="#">关于我们</a></li>
+					<li><a href="#">关于我们</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="#"><img src="img/weixin.png" alt="weixin">微信关注</a>
+				<ul>
+					<li><img src="img/qrcode.jpg" alt="erweima"></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+</div>
+</body>
+</html>
